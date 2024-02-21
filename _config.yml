@@ -197,7 +197,7 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: royrrainey/modern-resume-theme
+remote_theme: geekincorporated/modern-resume-theme
 
 sass:
   sass_dir: _sass
