@@ -1,1 +1,1 @@
-# geekincorporated.github.io
+# geekinc.github.io
