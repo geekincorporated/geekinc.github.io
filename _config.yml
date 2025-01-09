@@ -124,7 +124,7 @@ aboutme_content: | # this will include new lines to allow paragraphs
   <br><br>
   <b>"Stay curious and never stop learning."</b>
 
-  Over the past 17 years, I have gained valuable experience in implementing and managing end-to-end DevOps processes. My expertise lies in designing and deploying CI/CD pipelines, leveraging tools like Jenkins, Drone, GitHub Actions and GitLab CI/CD to automate build, test, and deployment workflows. Through my contributions, I have consistently reduced release cycles, improved software quality, and increased team productivity.
+  Over the past 18 plus years, I have gained valuable experience in implementing and managing end-to-end DevOps processes. My expertise lies in designing and deploying CI/CD pipelines, leveraging tools like Jenkins, Drone, GitHub Actions and GitLab CI/CD to automate build, test, and deployment workflows. Through my contributions, I have consistently reduced release cycles, improved software quality, and increased team productivity.
 
   I am proficient in cloud platforms such as AWS, Azure, and Google Cloud, and have a solid understanding of Infrastructure as Code (IaC) principles. I have successfully utilized tools like Terraform and Ansible to provision and configure infrastructure resources, ensuring consistency, scalability, and cost optimization. Additionally, my experience with containerization technologies, including Docker and Kubernetes, has allowed me to orchestrate applications effectively and manage scalable and resilient deployments.
 
@@ -192,6 +192,42 @@ aboutme_content: | # this will include new lines to allow paragraphs
 
 #       Look at this cool image  
 #       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# AboutMe2 Section
+aboutme2_title: 
+aboutme2_profile_image: images/pat.jpg
+# aboutme2_github_username:
+# aboutme2_linkedin_username:
+# aboutme2_twitter_username:
+aboutme2_email: pat@geekinc.co
+# Additional icon links
+# aboutme_additional_links:
+# - title:
+#   icon:
+#   url: 
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+aboutme2_content: | # this will include new lines to allow paragraphs
+  <h2><b>Patrick Lopez</b></h2>
+  <b>Title:</b> Senior Level DevOps / SRE / Cloud Engineer<br>
+  <b>Experience:</b> 18 + Years (35 + Years total in Information Technology)<br>
+
+  <b>Email:</b> [pat@geekinc.co](mailto:pat@geekinc.co){: style="color: black;"}
+
+  <br><br>
+  <b>"Embrace innovation and build for the future.”</b>
+
+  Over the past decade, I have honed my skills in optimizing and automating DevOps processes within the cybersecurity, technology, and renewable energy sectors, among many others. My expertise includes designing scalable CI/CD pipelines using tools like GitHub Actions, GitLab, CircleCI, Jenkins, TeamCity, and Bitbucket, enabling faster deployments and greater operational efficiency. By leveraging these and other systems, I've streamlined workflows, enhanced software reliability, and reduced time-to-market across diverse industries.
+
+  I am deeply experienced with cloud platforms such as AWS, Google Cloud, and Azure, applying Infrastructure as Code (IaC) principles through tools like Terraform, Helm, and Ansible. My work has consistently delivered scalable, cost-effective solutions, including automating the deployment of renewable energy microservices and enhancing security for critical infrastructure in the cybersecurity space. Containerization technologies like Kubernetes and Docker have been pivotal in my projects, enabling resilient and efficient application management at scale.
+
+  I thrive on solving complex challenges, whether it's optimizing Kubernetes clusters for performance, transitioning teams to cloud-native architectures, or implementing robust monitoring solutions with Grafana, Prometheus, DataDog, Splunk, SumoLogic, or other tools. Staying current with emerging technologies and DevOps practices fuels my passion for innovation and ensures I deliver value-driven solutions for every project I am privileged to join.
+
+  I look forward to helping teams achieve operational excellence and build systems that support sustainable growth and security.
+
+  <mark>AWS</mark>  <mark>Azure</mark>  <mark>GCP</mark> <mark>VMWare</mark> <mark>CI/CD</mark> <mark>Automation</mark>  <mark>IaC</mark>  <mark>Containerization</mark>  <mark>Version Control</mark>  <mark>Terraform</mark> <mark>Ansible</mark>  <mark>Docker</mark>  <mark>Kubernetes</mark>
 
 # Footer
 footer_show_references: false
