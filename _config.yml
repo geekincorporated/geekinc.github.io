@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: "[ Geek Incorporated ]"
-title: Independent Consultant
+title: Independent Consultant Agency
 # sub_title: DevOps / SRE / Cloud Engineering
 email: info@geekinc.co
 phone: (720) 263-0065
@@ -83,7 +83,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 # AboutMe Section
 aboutme_title: 
-aboutme_profile_image: images/profile.jpg
+aboutme_profile_image: images/me.jpg
 aboutme_github_username: royrrainey
 aboutme_linkedin_username: royrainey
 aboutme_twitter_username: roy_rainey
@@ -101,7 +101,8 @@ aboutme_content: | # this will include new lines to allow paragraphs
   <h2><b>Roy Rainey</b></h2>
   <b>Title:</b> Senior Level DevOps / SRE / Cloud Engineer<br>
   <b>Experience:</b> 18 + Years (35 + Years total in Information Technology)<br>
-  <b>Certifications:</b><br>
+  <br>Education: Computer Information Systems Major, B.S, MSU of Denver
+  <b>Recent Certifications:</b><br>
         AWS Certified Solutions Architect - Associate<br>
         AWS Certified Solutions Architect - Professional<br>
         AWS Certified DevOps Engineer - Professional<br>
