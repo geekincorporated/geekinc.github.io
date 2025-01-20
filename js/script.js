@@ -2,25 +2,6 @@ $(document).ready(function () {
     // Variable to store the dynamically fetched IP address
     let ipAddress = null;
 
-    // Function to fetch the external IP address from the JSON file
-    function fetchIP() {
-        return fetch('/data/get_ip.json') // Updated to use dynamic data route
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                ipAddress = data.ip_address;
-                return ipAddress;
-            })
-            .catch(error => {
-                console.error('Error fetching IP address:', error);
-                return null;
-            });
-    }
-
     // Handle click for small screens and hover for larger screens
     function handleImageModalBehavior() {
         const isSmallScreen = window.innerWidth <= 768; // Define small screen as width <= 768px
@@ -46,15 +27,6 @@ $(document).ready(function () {
 
     // Re-evaluate on window resize
     $(window).on('resize', handleImageModalBehavior);
-
-    // Load IP address and then load data
-    fetchIP().then(ip => {
-        if (ip) {
-            setInterval(() => {
-                // Periodic data loading logic can be added here
-            }, 60000); // Refresh data every minute
-        }
-    });
 
     // Show/hide .navbar-brand based on scroll position of specific element
     function toggleNavbarBrand() {
@@ -101,7 +73,6 @@ $(document).ready(function () {
 
         if (ipAddress) {
             fetch(`https://geekinc2slack.geekinc.co/webhook`, {
-            // fetch(`https://tinyurl.com/asktdp4h`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, message })

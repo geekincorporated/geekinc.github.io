@@ -200,11 +200,16 @@
                                 <div id="responseMessage" class="mt-3" style="display: none;"></div>
                             </div>
                             </p>
+                            <br><br>
+                            <p style="font-size: 25px;">Our Clients</p>
+                            <hr>
+                            <br><br>
+                            <p style="font-size: 25px;">Client Feedback</p>
+                            <hr>
                         </div>
                     </div>
                 </div>
             </div>
-            <br><br>
             <!-- Footer Section -->
             <div class="footer">
                 <p>Copyright © 2025 Geek Incorporated.
@@ -215,12 +220,84 @@
         </div>
     </section>
 
+    <section id="section2">
+        <div class="container">
+            <br>
+            <!-- New Row for Title -->
+            <div class="row">
+                <div class="col-12 text-start">
+                    <span class="card-text" style="font-size: 25px;">Meet The Team</span>
+                    <hr>
+                </div>
+            </div>    
+            <div class="row">
+                <!-- First Column: Team Member Information -->
+                <div class="col-md-6">
+                    <div class="card mb-3 section1-card1">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start text-center text-sm-start">
+                                <img src="img/roy.jpeg" style="width: auto; max-width: 120px; margin-bottom: 10px; margin-right: 15px;">
+                                <div>
+                                    <span style="font-size: 18px;">Roy Rainey</span><br>
+                                    <span style="font-size: 16px;">Senior Level DevOps / SRE / Cloud Engineer</span><br>
+                                    <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>
+                                    <span style="font-family: Roboto; font-size: 16px;">roy@geekinc.co</span>
 
-    <!-- jQuery and Scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-    <script src="js/script.js"></script>
+                                    <ul class="footer-icons d-flex justify-content-center">
+                                        <li class="list-inline-item"><a class="text-dark text-decoration-none icon-circle"
+                                                href="https://www.linkedin.com/company/geek-incorporated" target="_blank"><i
+                                                    class="fab fa-linkedin fa-fw"></i></a></li>
+                                        <li class="list-inline-item"><a class="text-dark text-decoration-none icon-circle"
+                                                href="https://github.com/geekincorp-devops" target="_blank"><i
+                                                    class="fab fa-github fa-fw"></i></a></li>
+                                        <li class="list-inline-item"><a class="text-dark text-decoration-none icon-circle"
+                                                href="https://www.facebook.com/profile.php?id=61562917892501" target="_blank"><i
+                                                    class="fab fa-facebook-f fa-fw"></i></a></li>
+                                        <li class="list-inline-item"><a class="text-dark text-decoration-none icon-circle"
+                                                href="https://twitter.com/geekincorp" target="_blank"><i
+                                                    class="fa-brands fa-x-twitter"></i></a></li>
+                                    </ul>
+                                    <p><i class="fa-solid fa-envelope fa-xl" style="margin-right: 10px;"></i><span
+                                            style="font-family: Roboto;"><strong>info@geekinc.co</strong></span></p>
+
+
+
+
+                                </div>
+                            </div>
+                            <dl class="card-text" style="font-family: Roboto;">
+                                <dt>“Stay curious and never stop learning.”</dt>
+                                <dd>
+                                    <p>Over the past 18 plus years, I have gained valuable experience in implementing and managing end-to-end DevOps processes. My expertise lies in designing and deploying CI/CD pipelines, leveraging tools like Jenkins, Drone, GitHub Actions, and GitLab CI/CD to automate build, test, and deployment workflows. Through my contributions, I have consistently reduced release cycles, improved software quality, and increased team productivity.</p>
+                                    <p>I am proficient in cloud platforms such as AWS, Azure, and Google Cloud, and have a solid understanding of Infrastructure as Code (IaC) principles. I have successfully utilized tools like Terraform and Ansible to provision and configure infrastructure resources, ensuring consistency, scalability, and cost optimization. Additionally, my experience with containerization technologies, including Docker and Kubernetes, has allowed me to orchestrate applications effectively and manage scalable and resilient deployments.</p>
+                                    <p>I thrive in dynamic environments and excel at troubleshooting complex issues, conducting root cause analysis, and implementing preventive measures. I am a proactive learner and consistently stay up to date with the latest industry trends and emerging technologies in the DevOps space. I believe my skills and experience align well with your requirements, and I am excited about the opportunity to contribute to your team.</p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Column: Placeholder for more content -->
+                <div class="col-md-6">
+                    <!-- Add your additional content here for the right column -->
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <span style="font-size: 25px;">Additional Content</span>
+                            <p>Place more team member profiles, images, or other content in this column to balance the layout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+            <!-- jQuery and Scripts -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+            <script src="js/script.js"></script>
 </body>
 
 </html>
