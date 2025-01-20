@@ -158,6 +158,7 @@ section p {
   padding: 6px 10px;
   font-size: 18px;
   height: auto;
+  font-family: Roboto;
 }
 
 @media (max-width: 768px) {
