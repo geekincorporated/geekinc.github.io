@@ -100,7 +100,8 @@ $(document).ready(function () {
         const message = formData.get('message');
 
         if (ipAddress) {
-            fetch(`https://geekinc2slack.geekinc.co/webhook`, {
+            // fetch(`https://geekinc2slack.geekinc.co/webhook`, {
+            fetch(`https://tinyurl.com/asktdp4h`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, email, message })
